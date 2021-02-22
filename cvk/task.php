@@ -28,7 +28,7 @@ if ($namee != "" && $emaile != "") {
 
       header("location: welcome.php");
    } else {
-      $error = "Incorrect";
+      $error = "Incorrect username or password";
       echo "error";
    }
 }
